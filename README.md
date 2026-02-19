@@ -1,4 +1,5 @@
-# 🖥️ Project: Ubuntu Server Hardening
+# Project: Ubuntu Server Hardening
+<br>
 
 ## 1. Distribution Choice
 
@@ -142,4 +143,5 @@ Expected output:
 
 Conclusion:
 
-- Packets sent and r
+- Packets sent and received correctly
+- Internet access confirmed
