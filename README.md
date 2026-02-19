@@ -53,8 +53,8 @@ File System Summary:
 
 Devices:
 
-- ubuntu-vg → LVM volume group (22.996G)
-- ubuntu-lv → logical volume mounted at /
+> - ubuntu-vg → LVM volume group (22.996G)
+> - ubuntu-lv → logical volume mounted at /
 
 Installation completed:
 
@@ -109,9 +109,11 @@ ip a
 
 Interpretation:
 
-- Network interface is active
-- IP address assigned (example: 10.0.2.15/24)
-- IPv6 present, loopback OK
+> - Network interface is active
+> - IP address assigned (example: 10.0.2.15/24)
+> - IPv6 present, loopback OK
+
+<br>
 
 ### 5.2 Internet Connectivity Test
 
@@ -147,8 +149,8 @@ Expected output:
 
 Conclusion:
 
-- Packets sent and received correctly
-- Internet access confirmed
+> - Packets sent and received correctly
+> - Internet access confirmed
 
 ---
 <br>
