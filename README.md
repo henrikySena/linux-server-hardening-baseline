@@ -31,6 +31,9 @@ In the context of this project:
 
 1. Download the ISO
    - Ubuntu Server 24.04 LTS (official image)
+
+<br>
+
 2. Create the VM
    - 2 vCPU
    - 2–4 GB RAM
@@ -56,6 +59,8 @@ Devices:
 > - ubuntu-vg → LVM volume group (22.996G)
 > - ubuntu-lv → logical volume mounted at /
 
+<br>
+
 Installation completed:
 
 ```
@@ -78,6 +83,8 @@ Command:
 sudo systemctl status ssh
 ```
 
+<br>
+
 Expected output:
 
 ```
@@ -85,6 +92,8 @@ ssh.service - OpenBSD Secure Shell server
 Loaded: loaded (/usr/lib/systemd/system/ssh.service; disabled; preset: enabled)
 Active: active (running)
 ```
+
+<br>
 
 If SSH is not active:
 
@@ -123,7 +132,9 @@ Initial command:
 ping -c 4 8.8.8.8
 ```
 
-Common issue: ping is not installed by default on Ubuntu Server 24.04 LTS
+> - Common issue: ping is not installed by default on Ubuntu Server 24.04 LTS
+
+<br>
 
 Solution:
 
@@ -131,11 +142,15 @@ Solution:
 sudo apt install iputils-ping -y
 ```
 
+<br>
+
 Test after installation:
 
 ```
 ping -c 4 8.8.8.8
 ```
+
+<br>
 
 Expected output:
 
